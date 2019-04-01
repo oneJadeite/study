@@ -9,3 +9,10 @@ echo -e $str $STR $NAME
 echo ${#str}
 echo ${str:0:4}
 echo `expr index "$str" a`
+
+echo ""
+echo ""
+
+what="what's this?"
+echo `expr index "$what" "os"`
+
